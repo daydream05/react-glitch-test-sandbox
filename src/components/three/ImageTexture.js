@@ -42,7 +42,7 @@ const ImageTexture = props => {
       onPointerOver={() => console.log("hello world")}
     >
       <planeBufferGeometry attach="geometry" args={[1, 1]} />
-      <meshBasicMaterial attach="material" map={texture} />
+      {texture ? <meshBasicMaterial attach="material" map={texture} /> : null}
       <GlitchEffect toggle={animate} />
     </mesh>
   )
