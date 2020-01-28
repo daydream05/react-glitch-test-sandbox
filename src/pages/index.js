@@ -13,7 +13,7 @@ const IndexPage = () => (
     <p>Now go build something great.</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Canvas>
-        <ImageTexture url="https://images.ctfassets.net/hdrc9tlu74l0/4gfAcYO5KIgHnxXN8HQwTA/c5ec8be55c30856b82f117389f999fad/person.png" />
+        <ImageTexture url="/person.png" />
       </Canvas>
     </div>
     <Link to="/page-2/">Go to page 2</Link>
